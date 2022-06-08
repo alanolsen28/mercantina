@@ -60,3 +60,11 @@ a:hover {
  border-radius: 50%;
  animation: spin 3s linear infinite;
 }
+
+.colorfondo {
+  background-image: linear-gradient(to right, #09172a, #0e284b, #163a6e, #244d93, #385fb9);
+}
+
+.colornosotros {
+ background-image: linear-gradient(to left, #0b1121, #0e1629, #111a31, #141f39, #182341)
+}
