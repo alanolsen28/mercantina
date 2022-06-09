@@ -2,10 +2,13 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  font-family: 'Nunito', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito', sans-serif;
+}
 
 a:hover {
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 .redes a {
   display: block;
@@ -15,50 +18,54 @@ a:hover {
   height: 55px;
   line-height: 55px;
   text-align: center;
-  margin: 5px; }
+  margin: 5px;
+}
 
 .containterr {
   grid-area: redes;
   position: fixed;
   bottom: 60px;
   right: 20px;
-  background-color: #0d6dfdcc;
+  background-color: #ffffffe1;
   border-radius: 1cm;
   font-size: 30px;
-   }
+}
 
 .navbar_fondo :hover {
-    
-    color: #0d6efd;
 
- 
+  color: #ffd900cc;
+
+
 }
 
 
 
 #galeria img {
-  width: 100%; }
+  width: 100%;
+}
 
 #galeria .col-lg-4 {
-  padding: 10px; }
+  padding: 10px;
+}
 
 .imagenes_bordes {
-  border-radius: 1cm; }
+  border-radius: 1cm;
+}
 
 .letras_index {
-    background-color: #000000a9;
-    border-radius: 1cm;
-    padding: 1px;
+  background-color: #000000a9;
+  border-radius: 1cm;
+  padding: 1px;
 
 }
 
 .imgwrapper::before {
- content: "";
- inset: -15px;
- border: 6px solid var (--bg-c1r);
- border-top-color: rgb(0, 0, 0);
- border-radius: 50%;
- animation: spin 3s linear infinite;
+  content: "";
+  inset: -15px;
+  border: 6px solid var (--bg-c1r);
+  border-top-color: rgb(0, 0, 0);
+  border-radius: 50%;
+  animation: spin 3s linear infinite;
 }
 
 .colorfondo {
@@ -66,5 +73,7 @@ a:hover {
 }
 
 .colornosotros {
- background-image: linear-gradient(to left, #0b1121, #0e1629, #111a31, #141f39, #182341)
+  background-color: #09172a ;
 }
+
+.texto_nosotros {font-size: large;}
